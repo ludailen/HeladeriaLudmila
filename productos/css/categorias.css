@@ -1,0 +1,169 @@
+/*-------------header----------------*/    
+header{
+    background-color: #A93C42    ;
+    margin-bottom: 8px;
+    padding: 30px;
+    box-shadow: 3.5px 2.5px 3.5px 2.5px rgb(137, 137, 137);
+}
+
+/*---------lista del nav-----------*/
+.navbar a{
+    color: white;
+    padding-left: 14px;
+    padding-right: 5px;
+}
+.linksnav a:hover { 
+    background-color: #A96C3C;
+    color: white;
+    padding: 5.5px;
+    text-decoration: none;
+}
+
+.linksnav a:active {
+    background-color: beige;
+    color: black;
+}
+
+
+/*--------------body---------------*/
+body{
+    background-color: rgb(239, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------footer-------------*/
+footer{
+    background-color: black;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    padding: 25px;
+    color: rgb(169, 169, 169);
+    box-shadow: 3.5px 2.5px 3.5px 3.5px #A96C3C;
+}
+
+/* ----------texto ----------------*/
+.cen{
+    text-align: center;
+}
+
+.izq{
+    text-align: left;
+}
+
+.der{
+    text-align: right;
+}
+
+
+/*-------------categorias-------------*/
+.cat{
+    width: 100%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.cat a{
+    color: #ffffff;
+    font-size: 2em;
+    
+}
+
+.cat a:hover {
+    color:#A93C42;
+    text-decoration: none;
+}
+
+.hela{
+    background-image: url("../img/fondo.jpg");
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.forh{
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    padding-top: 38px;
+    padding-bottom: 5px;
+}
+
+.sab{
+    background-color: rgb(10, 10, 10);
+    margin-top: 8px;
+    height: 60%;
+}
+
+
+/*-------------PORTADA--------------*/
+.tiposabor{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.6em;
+    
+}
+
+.tiposabor ul{
+    list-style-type: none;
+}
+
+.tiposabor a{
+    font-family: 'Fjalla One', sans-serif;
+    color: #A96C3C;
+    margin-right: 50px;
+}
+
+.tiposabor a:hover{
+    color: #A93C42;
+}
+
+.hportada{
+    color: white;
+    font-size: 3.8em;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+.tipo{
+    background-image: url("../img/tintin.jpg");
+    width: 100%;
+    margin-top: 8px;
+    padding: 80px;
+    background-attachment: fixed;
+}
+
+.sabores{
+    background-image: url("../img/tintin.jpg");
+    padding: 10px;
+    background-attachment: fixed;
+    color: rgba(255, 255, 255, 0.889);
+    border: white;
+}
+
+.des{
+    color: #A96C3C;
+    
+}
+
+.hsabor{
+    color: white;
+    font-size: 3.8em;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.detalles{
+    font-size: 1.2em;
+}
+
+.rosa{
+    color: #A93C42;
+}
+
+.marron{
+    color: #A96C3C;
+}

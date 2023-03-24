@@ -1,0 +1,290 @@
+/*-------------header----------------*/    
+header{
+    background-color: #A93C42    ;
+    margin-bottom: 8px;
+    padding: 30px;
+    box-shadow: 3.5px 2.5px 3.5px 2.5px rgb(137, 137, 137);
+}
+
+/*---------lista del nav-----------*/
+.navbar a{
+    color: white;
+    padding-left: 14px;
+    padding-right: 5px;
+}
+
+.linksnav a:hover { 
+    background-color: #A96C3C;
+    color: white;
+    padding: 3.5px;
+    text-decoration: none;
+}
+
+.linksnav a:active {
+    background-color: beige;
+    color: black;
+}
+
+
+/*--------------body---------------*/
+body{
+    background-color: rgb(239, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------footer-------------*/
+footer{
+    background-color: black;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    padding: 25px;
+    color: rgb(169, 169, 169);
+    box-shadow: 3.5px 2.5px 3.5px 3.5px #A96C3C;
+}
+
+/* ----------texto ----------------*/
+.cen{
+    text-align: center;
+}
+
+.izq{
+    text-align: left;
+}
+
+.der{
+    text-align: right;
+}
+
+/*----------index------------------*/
+.inicio{
+    background-image: url(../img/chocos.jpg);
+    background-size: 100%;
+}
+
+.hinicio{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: -40px;
+    padding-bottom: 100px;
+    text-shadow: 2.2px 2.2px black;
+}
+
+#h1inicio{
+    padding-top: 60px;
+    font-family: 'Playlist Script', sans-serif;
+    font-size: 8em;
+    padding-bottom: 8px;
+}
+
+
+.botoninicio{
+    background-color: #ba8d6a;
+    box-shadow: 2px 2px 3px rgb(51, 51, 51);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    font-family: 'Roboto Condensed Medium', sans-serif;
+    font-size: 1em;
+}
+
+.primerboton{
+    float: right;
+}
+
+.botoninicio a{
+    color: white;
+    text-decoration: none;
+}
+
+.botoninicio a:hover{
+    color: rgb(57, 35, 35);
+    text-decoration: none;
+}
+
+.fondoindex{
+    background-image: url(../img/fondoindex.jpg);
+    background-attachment: fixed;
+    height: 160px;
+    padding-top: 48px;
+}
+
+.fondoindex a{
+    text-decoration: none;
+    color: rgb(35, 22, 22);
+}
+
+.fondoindex a:hover{
+    text-decoration: none;
+    color:#A96C3C;
+}
+
+.productos{
+   /* background-color: rgb(243, 243, 243);*/
+    margin-top: 10px;
+    padding:40px;
+}
+
+.prod{
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.inicioh3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #A96C3C;
+    margin-bottom: 20px;
+}
+
+.producto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #A96C3C;
+    margin-bottom: 20px;
+}
+
+.inicioh4{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #A93C42;
+}
+
+.iniciop{
+font-size: 1.3em;
+color: #A96C3C;
+}
+
+.galeria img{
+    border: #A96C3C 5px;
+    border-radius: 20px;
+    
+}
+
+.galeria img:hover{
+    box-shadow:  1px 1px 1.5px 1.5px #b8b8b8;
+}
+
+
+/*-----------------sobre nos------------------*/
+.nosh{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4em;
+    padding-bottom: 38px;
+    padding-top: 38px;
+}
+
+.nos{
+    background-image: url(../img/nos.jpg);
+    background-attachment: fixed;
+    height: 160px;
+}
+
+/*--------------------sabores----------------*/
+.fondosab{
+    background-color: black;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.sabores{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.card{
+    font-family: 'Fjalla One', sans-serif;
+    background-image: url(../img/sabores.jpg);
+}
+
+.card button{
+    font-size: 1em;
+}
+
+.card-body{
+    background-image: url(../img/fondo.jpg);
+    width: 100%;
+    color: white;
+}
+
+/*--------------------Contacto----------------------*/
+.cont{
+    background-image: url(../img/contacto.jpg);
+    margin-top: 10px;
+    background-attachment: fixed;
+}
+
+form{
+    border-style: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 7px;
+}
+
+form label{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+form input, textarea{
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+}
+
+.forh{
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 4em;
+    padding-top: 38px;
+    padding-bottom: 5px;
+}
+
+/*-----botón de enviar----*/
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #A93C42;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=button], input[type=submit]:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+input[type=button], input[type=submit]:hover{
+    background-color:#A96C3C;
+}
+
+/*------------------GRACIAS--------------------*/
+.grax{
+    height: 480px;
+}
+
+.listagrax{
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.letras{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
